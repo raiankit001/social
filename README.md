@@ -16,4 +16,5 @@ A next.js Practice Project
 # HamburgerMenu Refrence
 npm install hamburger-react
 npm install primeicons / import 'primeicons/primeicons.css';
-        
+npm install @clerk/nextjs   //auth
+npm install tw-elements     //spinner
