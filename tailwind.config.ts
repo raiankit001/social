@@ -7,6 +7,7 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    extend: {
     colors: {
       'blue': '#0F67B1',
       'lightBlue':'#96C9F4',
@@ -15,7 +16,6 @@ const config: Config = {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
     },
-    extend: {
       spacing: {
         '8xl': '96rem',
         '9xl': '128rem',
