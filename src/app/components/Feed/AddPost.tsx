@@ -14,11 +14,11 @@ export default function AddPost() {
             <div className="flex flex-col flex-[4] mr-2">
                 {/* TextArea */}
                 <div className="flex items-end">
-                    <textarea className="bg-gray-100 w-full m-2" />
+                    <textarea className="bg-gray-100 w-full m-2 p-1 focus:border-none focus:outline-none focus:bg-gray-200 rounded-md" placeholder="What's in your mind ?" />
                     <div className="text-xl my-2 scale-125">😄</div>
                 </div>
                 {/* Options */}
-                <div className="flex justify-around">
+                <div className="flex justify-around md:justify-start md:gap-4">
                     <div className="flex items-center gap-1">
                         <FaImage className="text-[1.1rem]"/>
                         <span>Photo</span>
